@@ -1,0 +1,17 @@
+.FormAdd {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.FormAdd .pop {
+  background: #00695f;
+} 
+
+.FormAdd .pop:hover {
+  background: #478680;
+}
+
+
+
+
+

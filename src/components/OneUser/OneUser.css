@@ -1,0 +1,54 @@
+.OneUser {
+  display: flex;
+  align-items: flex-end;
+  flex-basis: 50%;
+  padding: 17px 15px;  
+  box-sizing: border-box;
+  transition: background .2s ease-in-out;
+}
+
+.OneUser:hover {
+  background: #00695f15;
+}
+
+.OneUser:nth-child(odd) {
+  padding-right: 25px;
+}
+
+.OneUser:nth-child(even) {
+  padding-left: 30px;
+}
+
+.OneUser .userName {
+  margin: 0;
+}
+
+.OneUser .num {
+  margin: 0;
+}
+
+.OneUser .bottomLine {
+  flex-grow: 1;
+  border-bottom: 1px dashed gray;
+  align-self: flex-end;
+  margin: 0;
+
+}
+
+.OneUser .iconSpan,
+.OneUser .iconSpanDel {
+  cursor: pointer;
+  margin-left: 7px;
+  height: 24px;
+  width: 24px;
+  display: block;
+}
+
+.OneUser .iconSpan i {
+  color: rgb(48, 161, 48);
+}
+
+.OneUser .iconSpanDel i {
+  color: tomato;
+}
+

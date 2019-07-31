@@ -1,0 +1,30 @@
+.mainInp {
+  margin-bottom: 10px;
+}
+
+.inputFloat {
+  width: 90%;
+  background: rgba(255,255,255, 1); 
+  border-radius: 4px;     
+}
+
+.inputFloat input {
+  color: #00695f;
+}
+
+.inputFloat fieldset {
+  border-color: #00695f;  
+}
+
+.inputFloat label {
+  color: #00695f!important;  
+  background: #fff;
+}
+
+.inputFloat input::-webkit-input-placeholder {
+  color: #00695f56;
+}
+
+.inputFloat input:-moz-placeholder {
+  color: rgba(255,255,255, .5)
+}

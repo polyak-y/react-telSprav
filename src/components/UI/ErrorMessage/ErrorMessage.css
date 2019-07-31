@@ -1,0 +1,40 @@
+.errorAlert {
+  color: rgb(255, 116, 92);
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 0;
+  animation: flashing 4s forwards linear 200ms; 
+  position: fixed;
+  top: 30%;
+  transform: scale(0);
+  left: 0;
+  width: 100%;  
+  font-weight: bold;  
+  z-index: 99;
+  opacity: 1;
+}
+
+@keyframes flashing {
+  0% {
+    transform: scale(0);
+  }
+  5% {
+    transform: scale(3);
+  }
+  40% {
+    transform: scale(3);
+  }
+  95% {
+    transform: scale(3);
+  }
+  100% {
+    transform: scale(0);
+  } 
+}
+
+.mainTextError {
+  background: rgba(0,0,0, .8);
+  display: inline-block;
+  padding: 15px;
+  border-radius: 7px;
+}

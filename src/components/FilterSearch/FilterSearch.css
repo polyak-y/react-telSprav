@@ -1,0 +1,55 @@
+.FilterSearch {
+  display: flex;
+  min-width: 1100px;
+  max-width: 1445px;
+  margin: 0 auto 10px auto;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+ 
+.FilterSearch .search {
+  display: flex;
+  align-items: flex-end;
+  padding-right: 30px;
+}
+
+.FilterSearch .search .button {
+  width: 30px;
+  height: 30px;
+}
+
+.FilterSearch .search input {
+  color:rgb(143, 142, 142);
+}
+
+.FilterSearch .search .button i {
+  color: rgb(143, 142, 142);
+}
+
+.FilterSearch .sort {
+  padding-left: 30px;
+}
+
+.FilterSearch .sort button{
+  padding: 3px;
+}
+
+.FilterSearch .sort button:hover i {
+  font-weight: bold;
+  color: #00695f;
+}
+
+.FilterSearch .count {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.FilterSearch .count span {
+  font-size: 30px;
+  font-weight: normal;
+}

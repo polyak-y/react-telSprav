@@ -1,0 +1,43 @@
+.SuccessMessage {
+  color: lightgreen;
+  font-size: 18px;
+  margin: 0;
+  animation: flashing 3500ms forwards linear 200ms; 
+  position: fixed;
+  top: 30%;
+  transform: scale(0);
+  left: 0;
+  width: 100%;  
+  font-weight: bold;  
+  z-index: 99;
+  opacity: 1;
+}
+
+@keyframes flashing {
+  0% {
+    transform: scale(0);
+  }
+  10% {
+    transform: scale(3);
+  }
+  40% {
+    transform: scale(3);
+  }
+  60% {
+    transform: scale(3);
+  }
+  100% {
+    transform: scale(0);
+  } 
+}
+
+.mainTextError {
+  background: rgba(0,0,0, .8);
+  display: inline-block;
+  padding: 15px;
+  border-radius: 7px;
+}
+
+.mainTextError p {
+  margin-bottom: 0;
+}
